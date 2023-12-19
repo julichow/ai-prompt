@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+hr {
+  margin: 0;
+}
+
+.header-img {
+  height: 30px;
+  width: 30px;
+  margin: 0.5rem;
+}
+
+.image-1 {
+  width: 400px;
+  height: 300px;
+}
+
+.container {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  grid-template-columns: repeat(2, minmax(auto, 450px));
+  column-gap: 100px;
+  padding: 2rem;
+  align-items: center;
+}
+
+.title {
+  font-family: inherit;
+  text-align: center;
+}
+
+.btn {
+  background-color: purple;
+  font-family: inherit;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 1000px;
+  padding: 0.5rem;
+  width: 500px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
